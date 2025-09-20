@@ -11,7 +11,7 @@
 
 body {
   font-family: 'Roboto', Arial, sans-serif;
-  background-color: var(background-color);
+  background-color: var(--background-color);
   color:#171615 (text-color);
   line-height: 1.6;
   font-size: 16px;
@@ -106,6 +106,82 @@ ul {
   margin-top: 0.5rem;
 }
 
+#portfolio ul {
+  list-style: square;
+}
 
+#portfolio a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#portfolio a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+/* ========== Footer ========== */
+footer {
+  background: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+footer ul li {
+  margin: 0.3rem 0;
+}
+
+/*/========== Responsive Design ========== */
+@media (min-width: 900px) {
+  main {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  section {
+    padding: 1rem;
+  }
+}
 
 

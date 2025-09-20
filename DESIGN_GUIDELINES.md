@@ -2,7 +2,7 @@
 
 
 
-## 1. Color Scheme
+## Color Scheme
 I picked  some professional colors for my resume.
 
 1.Primary Colors: #303f4e;  
@@ -12,7 +12,7 @@ I picked  some professional colors for my resume.
 
 
    
-## 2. Typography
+##  Typography
 - **Primary Font :ROBOTO(https://fonts.google.com/specimen/Roboto) (Google Font)  
   Used for body text and headings.  
   Clean, modern, and highly legible across all devices.  
@@ -20,7 +20,7 @@ I picked  some professional colors for my resume.
 
 
 
-## 3. Layout & Positioning
+##  Layout & Positioning
 
 Header: Center-aligned with name, tagline, profile picture, and navigation.  
 Navigation: Horizontal menu on large screens, collapses into a vertical stack on mobile.  
@@ -30,4 +30,14 @@ Desktop: Two-column grid ( content + sidebar/secondary sections).
 Mobile: Single-column layout for readability.  
  
 
----
+ ## **Branding Style**
+
+- squared  profile image created a professionalism. 
+- Made my resume clear to read with consistent padding.  
+- Links colours change which its clicked on.
+
+
+## Accessibility**
+- simple contrast between text and background for better visibility.
+- Proper labels for the sections.
+- alt text for image.

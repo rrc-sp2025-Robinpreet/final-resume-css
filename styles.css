@@ -11,8 +11,8 @@
 
 body {
   font-family: 'Roboto', Arial, sans-serif;
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: var(background-color);
+  color:#171615 (text-color);
   line-height: 1.6;
   font-size: 16px;
 }
@@ -20,5 +20,13 @@ body {
 a:hover{
     text-decoration: underline;
 }
+
+header {
+  background: var(primary-color);
+  color: black;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
 
 
